@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="LowTrust"
+     ProductID="{a94183c2-a3ee-46a2-ae3b-944884c1679d}"
+     Version="2.0.0.0"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>LowTrust</Title>
+    <StartPage>https://myapp.app-host.cevanapps.com/Pages/Default.aspx?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="b6854459-1399-4975-9681-a6e9b7b3ed67" />
+  </AppPrincipal>
+  <AppPermissionRequests>
+	
+  </AppPermissionRequests>
+</App>
